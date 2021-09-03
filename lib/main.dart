@@ -9,8 +9,10 @@ void main() {
           title: Text('I Am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        body: Image(
-          image: AssetImage('images/diamond.png'),
+        body: Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
         ),
       ),
     ),
